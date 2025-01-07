@@ -10,6 +10,8 @@ class Appcolors  {
   static Color GreenColor =Color(0xff39A552);
   static Color WhiteColor =Color(0xffffffff);
   static Color BlackColor =Color(0xff303030);
+  static Color PinkColor =Color(0xffED1E79);
+
 
 
 

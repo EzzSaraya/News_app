@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:newss_app/Home/home_screen.dart';
+import 'package:newss_app/Home/news/news_details.dart';
 import 'package:newss_app/mythemedata.dart';
 
-import '';
+
 void main(){
   runApp(News_app());
 }
@@ -20,10 +21,11 @@ class News_app extends StatelessWidget{
   ) {
     return MaterialApp(
       debugShowCheckedModeBanner:false ,
-      theme: Mythemedata.LightTheme,
+      theme: Mythemedata.LightTheme ,
       initialRoute:HomeScreen.routename,
       routes: {
-    HomeScreen.routename:(context)=> HomeScreen()
+    HomeScreen.routename:(context)=> HomeScreen(),
+        NewsDetails.routename:(context)=> NewsDetails()
     },
 
     );
